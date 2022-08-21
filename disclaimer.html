@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Raroin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+ <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/custom.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+	$(document).ready(function(){
+		window.onload = function() {
+		    $("#welcomePopup .modal-dialog").addClass('transfoms');
+		};
+
+		$(".modalclose_btn,.modal_backdrop").click(function(){
+			$("#welcomePopup").css("display","none");
+			$(".modal_backdrop").css("display","none");
+		});
+	});
+	
+</script>
+</head>
+
+<body>
+
+     <div class="container-custom2">
+		<header class="terms_condition_sec">
+			<div class="terms_heading">
+				<h2> Terms & Conditions </h2>
+			</div>
+			
+		</header>
+		<div class="terms_condition_list">
+			<ul>
+                <li><p>1. लोगिन करने के बाद अपना पासवर्ड बदल लें। </p></li>
+				<li><p>2. गेम रद्द होने या टाई होने पर मैच के सभी सौदे रद्द माने जायेंगे और जो सेशन पुरे हो चुके हे, उनके हिसाब से ही Coins कम या ज्यादा होंगे । </p></li>
+				<li><p>3. मैच के दौरान भाव को देख व समझ के ही सौदा करे। किये गए किसी भी सौदे को हटाया या बदला नहीं जाएगा। सभी सौदे के लिए स्वयं आप ही जिम्मेदार होंगे।</p></li>
+			    <li><p>4. मैच या सेशन भाव गलत चलने पर जो भी मैच या सेशन के सौदे हुए हे वह स्वतः हट जायेंगे।</p></li>
+				<li><p>5. मैच में जो सेशन कम्पलीट होंगे सिर्फ उनके हिसाब से कॉइन कम या ज्यादा होंगे और जो सेशन कम्पलीट नहीं हुए है बो सारे सेशन रद्द हो जाएंगे|</p></li>
+				<li><p>6. मैच मैं ओवर कम होने पर एडवांस सेसन फैंसी कैंसल हो जाएंगी|</p></li>
+				<li><p>7. मैच में ओवर कम होने पर अगर सेम टीम दुबारा खेलने के लिए आती है तो जो रनिंग में प्लेयर के रन और पार्टनरशीप डिक्लेयर होगी। अगर ओवर कम होने पर दूसरी टीम खेलने के लिए आती है तो जो रनिंग में प्लेयर रन, पार्टनरशीप रद्द हो जाएंगे</p></li>
+				<li><p>8. सेशन को डिक्लेअर और कैंसिल करने के लिए कंपनी का निर्णय अन्तिम होगा| ऐसी स्थिति में किसी भी तरह का वाद-विवाद मान्य नहीं होगा|</p></li>
+				<li><p>9. टेस्ट में पारी डिक्लेअर होने पर जो सेशन रनिंग में हे उस सेशन को डिक्लेअर करने के लिए दूसरी टीम के ओवर या बॉल काउंट किये जायेंगे|</p></li>
+				<li><p>नोट : सर्वर या वेबसाईट में किसी तरह की खराबी आने या बंद हो जाने पर केवल किये गए सौदे ही मान्य होंगे। ऐसी स्थिति में किसी भी तरह का वाद-विवाद मान्य नहीं होगा।</p></li>
+			</ul>
+		</div>
+
+       <div class="continue_btn mt-4">
+		   <a href="main_menu.html">
+			   Continue   
+		   </a>
+	   </div>
+	   <footer>
+		   <div class="copyright_text">
+			   <p>Copy Right @ 99sport.in</p>
+		   </div>
+	   </footer>
+
+	
+			<!-- The Modal -->
+			<div class="modal show" style="display: block;" id="welcomePopup">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+			
+					
+						<div class="modal-body">
+							<div class="welcom_div">
+								<h2> Welcome To</h2>
+								<h2> 99sport</h2>
+								<div class="whit_box">
+									<p>Stay Home Stay Safe.</p>
+								</div>
+								<p>Thanks For Visiting Our Site</p>
+							</div>
+							<button type="button" class="btn modalclose_btn" data-dismiss="modal">×</button>
+					
+						</div>
+					
+			
+				   </div>
+				</div>
+			</div>
+			<div class="modal_backdrop">
+
+			</div>
+
+
+	 </div>
+	 
+
+</body>
+
+</html>
